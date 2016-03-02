@@ -3,3 +3,6 @@
 *.dcu
 *.class
 *.exe
+*.~dfm
+*.~pas
+*.~dcu
