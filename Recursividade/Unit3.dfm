@@ -1,0 +1,110 @@
+object Form3: TForm3
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 305
+  ClientWidth = 527
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Button1: TButton
+    Left = 160
+    Top = 64
+    Width = 75
+    Height = 25
+    Caption = 'Button1'
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Button2: TButton
+    Left = 160
+    Top = 96
+    Width = 75
+    Height = 25
+    Caption = 'Button2'
+    TabOrder = 1
+    OnClick = Button2Click
+  end
+  object Button3: TButton
+    Left = 160
+    Top = 128
+    Width = 75
+    Height = 25
+    Caption = 'Button3'
+    TabOrder = 2
+    OnClick = Button3Click
+  end
+  object Button4: TButton
+    Left = 160
+    Top = 168
+    Width = 75
+    Height = 25
+    Caption = 'fatorial'
+    TabOrder = 3
+    OnClick = Button4Click
+  end
+  object Edit1: TEdit
+    Left = 248
+    Top = 176
+    Width = 121
+    Height = 21
+    NumbersOnly = True
+    OEMConvert = True
+    TabOrder = 4
+    Text = '10'
+  end
+  object Button5: TButton
+    Left = 160
+    Top = 200
+    Width = 75
+    Height = 25
+    Caption = 'fibonacci'
+    TabOrder = 5
+    OnClick = Button5Click
+  end
+  object Edit2: TEdit
+    Left = 248
+    Top = 208
+    Width = 121
+    Height = 21
+    NumbersOnly = True
+    OEMConvert = True
+    TabOrder = 6
+    Text = '10'
+  end
+  object Button6: TButton
+    Left = 168
+    Top = 240
+    Width = 75
+    Height = 25
+    Caption = 'Button6'
+    TabOrder = 7
+    OnClick = Button6Click
+  end
+  object Edit3: TEdit
+    Left = 248
+    Top = 240
+    Width = 49
+    Height = 21
+    NumbersOnly = True
+    OEMConvert = True
+    TabOrder = 8
+    Text = '3'
+  end
+  object Edit4: TEdit
+    Left = 312
+    Top = 240
+    Width = 57
+    Height = 21
+    NumbersOnly = True
+    OEMConvert = True
+    TabOrder = 9
+    Text = '2'
+  end
+end
